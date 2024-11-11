@@ -6,5 +6,4 @@ sealed interface CoinListUiAction {
     data class OnCoinClick(
         val coinUi: CoinUi
     ) : CoinListUiAction
-
 }
